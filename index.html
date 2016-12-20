@@ -250,7 +250,7 @@
     <h2>Pattern matching in real world</h2>
 
     <pre>
-      <code>def event_text(%{"event" => "end, "label" => match_label}) do</code>
+      <code>def event_text(%{"event" => "end", "label" => match_label}) do</code>
       <code>  I18n.t!("en", "bot.unavailable", label: label)</code>
       <code>end</code>
 
